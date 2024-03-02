@@ -38,6 +38,11 @@ public class Course {
         this.lecture = lecture;
     }
 
+    public void getDetails(){
+        System.out.println("Course Code\t: " + getCourseCode());
+        System.out.println("Course Name\t: " + getCourseName());
+    }
+
     public void addStudent(Student S){
         this.studentsEnrolled.add(S);
     }
