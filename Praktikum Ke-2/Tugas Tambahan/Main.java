@@ -79,6 +79,19 @@ public class Main {
         PBO.removeStudent(Demas);
 
         System.out.println("========Course Data=========");
+        PBO.getDetails();
+        System.out.println("----------------------------");
+        MBD.getDetails();
+        System.out.println("----------------------------");
+        ASA.getDetails();
+        System.out.println("----------------------------");
+        GKV.getDetails();
+        System.out.println("----------------------------");
+        STI.getDetails();
+        System.out.println("----------------------------");
+        RPL.getDetails();
+        System.out.println("");
+        
         PBO.viewEnrolledStudents();
         MBD.viewEnrolledStudents();
         ASA.viewEnrolledStudents();
